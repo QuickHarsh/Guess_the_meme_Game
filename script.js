@@ -192,7 +192,6 @@ function endGame() {
         message = `⏰ Time's up! Your meme knowledge score: ${score}`;
     }
     
-    // Add fun rating based on score
     if (score >= 4) {
         message += "\n🏆 You're a Meme God!";
     } else if (score >= 2) {
