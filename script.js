@@ -10,7 +10,7 @@ const hardModeBtn = document.getElementById('hardMode');
 const correctSound = document.getElementById('correctSound');
 const wrongSound = document.getElementById('wrongSound');
 const backgroundMusic = document.getElementById('backgroundMusic');
-backgroundMusic.volume = 0.1;
+backgroundMusic.volume = 0.2;
 
 const loadingMessages = [
     "Loading memes... 🤔",
