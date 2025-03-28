@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess That Meme!</title>
+    <link rel="icon" type="image/x-icon" href="images/Daco_366498.png">
+    <link rel="stylesheet" href="meme-guess.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-header">
+            <h1>Guess That Meme! 😂</h1>
+            <div class="game-stats">
+                <div class="timer">Time: <span id="timer">60</span>s</div>
+                <div class="score">Score: <span id="score">0</span></div>
+            </div>
+        </div>
+        
+        <div class="game-mode">
+            <button id="normalMode" class="mode-btn active">Normal Mode</button>
+            <button id="hardMode" class="mode-btn">Hard Mode</button>
+        </div>
+
+        <div class="meme-display">
+            <div class="meme-box" id="memeBox">
+                <img id="memeImage" src="images/emotional-damage.gif" alt="Meme">
+            </div>
+        </div>
+
+        <div class="options" id="options">
+        </div>
+
+        <div class="game-controls">
+            <button id="startBtn" class="control-btn">Start Game</button>
+            <button id="restartBtn" class="control-btn" style="display: none;">Play Again</button>
+        </div>
+
+        <div id="result" class="result"></div>
+    </div>
+    <audio id="correctSound" src="images/anime-wow-sound-effect-mp3cut.mp3"></audio>
+    <audio id="wrongSound" src="images/gta-san-andreas-ah-shit-here-we-go-again_BWv0Gvc.mp3"></audio>
+    <audio id="backgroundMusic" src="images/Oggy and the cockroaches theme song - [High quality].mp3" loop></audio>
+
+    <script src="meme-guess.js"></script>
+</body>
+</html> 
